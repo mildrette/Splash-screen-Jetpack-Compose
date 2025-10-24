@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <!-- Splash background color -->
+        <item name="windowSplashScreenBackground">@color/DarkBlue</item>
+
+        <!-- Your splash logo or icon -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+
+        <!-- Theme used after splash screen disappears -->
+        <item name="postSplashScreenTheme">@style/Theme.MySplashScreen</item>
+    </style>
+    <style name="Theme.SplashScreen" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
